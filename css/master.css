@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Start Navbar */
+.navbar-brand {
+    color: white;
+}
+.navbar-toggler{
+    color: white;
+}
+.nav-link{
+    color: #ee4b60;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* End Navbar */
+
+/* Start Main  */
+.contain{
+    background-color: #111;
+}
+.main{
+ width: 100%;
+ height: 100vh;
+}
+.main h1{
+    color: white;
+}
+.text span{
+ color: #ee4b60;
+}
+.main{
+    background-image: url("./images/b-g-2.jpg"); 
+}  
+/* End Main  */
+
+/* Start About  */
+.about .text h4{
+    color: #ee4b60;
+}
+/* End About  */
+
+/* Stat Skills  */
+.our-skills h3{
+    font-size: 23px;
+    }
+    .our-skills {
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .our-skills:first-child{
+    background: rgb(245, 245, 245);
+    }
+    .our-skills:nth-child(2){
+    background-color: #bbb;
+    }
+    .our-skills:nth-child(3){
+    background-color: #ccc;
+    }
+    .progress{
+    position: relative;
+    width: 450px;
+    height: 20px;
+    background: rgb(236, 236, 236);
+    margin: 10px;
+    }
+    .progress span{
+    position: absolute;
+    left: 0; 
+    top: 0;
+    height: 100%;
+    background-color: #ee4b60;
+    transition: width .9s linear;
+    }
+    .our-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(236, 236, 236);
+    }
+/* End Skills  */
+
+/* Start Testimonials  */
+.testimonials{
+    width: 10   0%;
+    height: 60%;
+    background-color: #ee4b60;
+}
+.testimonials .photo img{
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+}
+/* End Testimonials  */
+
+/* Start Contact  */
+
+.push{
+    margin-right: 10px;
+    }
+    .push input{
+    width: 15em;
+    padding: 10px;
+    height: 3em;
+    margin-bottom: 10px;
+    }
+    .send input{
+    width: 15em;
+    height: 165px;   
+    margin-bottom: 10px; 
+    }
+    .login{
+    background-color: #ee4b60;
+    text-decoration: none;
+    color: #000;
+    padding: 13px 20px;
+    }
+    .send{
+    margin-bottom: 8px;
+    }
+    .main-title h3{
+    color: white;
+    margin-left: 62px;
+    }
+    .contact{
+    width: 100%;
+    height: 85vh;
+    }
+/* End Contact  */
+
+/* Start Footer  */
+.footer{
+    background-color: #111;
+    padding: 15px;
+}
+.footer strong{
+    color: white;
+}
+.footer span{
+    color: orange;
+}
+/* End Footer  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-title h2{
+    color: #ee4b60;
+}
+/* .main-title::after{
+    content: '';
+    width: 120px;
+    height: 2px;
+    background-color: #ee4b60;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+     */
+
+
+
+
+
+
+
+
+
+    .push{
+        margin-right: 10px;
+        }
+        .push input{
+        width: 15em;
+        padding: 10px;
+        height: 3em;
+        margin-bottom: 10px;
+        }
+        .send input{
+        width: 15em;
+        height: 165px;   
+        margin-bottom: 10px; 
+        }
+        .login{
+        background-color: #ee4b60;
+        text-decoration: none;
+        color: #000;
+        padding: 13px 20px;
+        }
+        .send{
+        margin-bottom: 8px;
+        }
+        .main-title h3{
+        color: white;
+        margin-left: 62px;
+        }
+        .contact{
+        width: 100%;
+        height: 85vh;
+        }
+       
+
+
+
+
+    .feature .icon-holder{
+        height: 200px;
+        
+        }
+        .feature .icon-holder .icon{
+            width: 110px;
+            height: 110px;
+        left: 50%;
+        transform: translateX(-50%);
+        }
+
+
